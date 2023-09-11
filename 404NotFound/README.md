@@ -6,7 +6,7 @@
 
 ## Challenge
 
-Criar uma página de erro 404 não encontrada seguindo o design. A página deve ser responsiva. Atenda às histórias de usuário abaixo:
+Criar uma página de erro 404 não encontrada seguindo o [design](https://www.figma.com/file/QeKWLNhB13zDjJzqR22TKE). A página deve ser responsiva. Atenda às histórias de usuário abaixo:
 
 **História do usuário:** Eu posso ver uma página seguindo o design fornecido.
 
