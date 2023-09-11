@@ -13,9 +13,9 @@ Criar uma página de erro 404 não encontrada seguindo o design. A página deve 
 ## Overview
 
 <p align="center">
-    <img src="./img/desktop.png">
+    <img src="assets//img/desktop.png">
 </p>
 
 <p align="center">
-    <img src="./img/mobile.png"  height="100">
+    <img src="assets//img/mobile.png">
 </p>
