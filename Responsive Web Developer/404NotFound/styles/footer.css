@@ -1,0 +1,14 @@
+footer {
+	margin-top: auto;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+footer > p {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #bdbdbd;
+	margin: 39px;
+}

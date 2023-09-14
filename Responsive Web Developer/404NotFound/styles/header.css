@@ -1,0 +1,19 @@
+header {
+    margin-top: 40px;
+    margin-left: 77px;
+}
+
+header > h1 {
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 480px) {
+
+    header {
+      margin-top: 20px;
+      margin-left: 24px;
+    }
+
+}

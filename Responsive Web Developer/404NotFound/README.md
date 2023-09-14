@@ -13,9 +13,9 @@ Criar uma página de erro 404 não encontrada seguindo o [design](https://www.fi
 ## Overview
 
 <p align="center">
-    <img src="assets//img/desktop.png">
+    <img src="solution/screen-desktop.png">
 </p>
 
 <p align="center">
-    <img src="assets//img/mobile.png">
+    <img src="solution/screen-mobile.png">
 </p>
