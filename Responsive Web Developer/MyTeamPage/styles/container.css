@@ -1,0 +1,73 @@
+container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 500px);
+	margin: 0 auto;
+	gap: 10px;
+	max-width: 1024px;
+}
+
+team {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+
+	max-height: 400px;
+	max-width: 300px;
+}
+
+team:nth-child(3n + 2) {
+	margin-top: 100px;
+}
+
+team > img {
+	width: 238px;
+	height: 347px;
+}
+
+team > h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+team > p {
+	writing-mode: vertical-lr;
+	font-family: var(--ptserif);
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+	container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		max-width: 400px;
+	}
+
+	team {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		max-width: 175px;
+		max-height: 257px;
+	}
+
+	team > img {
+		height: 220px;
+		width: 139px;
+	}
+
+	team > h3 {
+		font-size: 14px;
+	}
+
+	team > p {
+		font-size: 10px;
+	}
+
+	team:nth-child(3n + 2) {
+		margin-top: 0;
+	}
+	team:nth-child(even) {
+		margin-top: 60px;
+	}
+}

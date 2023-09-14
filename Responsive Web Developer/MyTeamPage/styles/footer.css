@@ -1,0 +1,20 @@
+footer {
+	margin-top: 100px;
+	justify-content:center;
+	align-items: flex-end;
+}
+
+footer > p {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #A9A9A9;
+	text-align: center;
+}
+
+
+p > a {
+	text-decoration:none;
+	font-weight: bold;
+	color: inherit; 
+  }
