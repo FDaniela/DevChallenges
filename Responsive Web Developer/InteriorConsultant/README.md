@@ -16,7 +16,7 @@ Criar uma página seguindo o [design](https://www.figma.com/file/3cf83hHRBAGjG5E
     <img src="solution/screen-desktop.png">
 </p>
 
-<p align="center">
+<p align="center" >
     <img src="solution/screen-mobile1.png">
 </p>
 

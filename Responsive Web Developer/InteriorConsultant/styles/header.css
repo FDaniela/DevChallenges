@@ -39,11 +39,6 @@ header {
 	text-decoration: underline;
 }
 
-/* icon Menu */
-
-#menu_checkbox {
-	display: none;
-}
 
 label {
 	position: absolute;
@@ -90,6 +85,11 @@ label div:nth-child(2) {
 	width: 24px; /* Modificado para 24px */
 }
 
+/* icon Menu */
+
+#menu_checkbox {
+	display: none;
+}
 #menu_checkbox:checked + label:before {
 	background-color: #181719;
 }
@@ -133,7 +133,6 @@ label div:nth-child(2) {
 	.header-list {
 		position: absolute;
 		flex-direction: column;
-		z-index: 1;
 		top: 40%;
 		left: 0;
 		right: 0;
