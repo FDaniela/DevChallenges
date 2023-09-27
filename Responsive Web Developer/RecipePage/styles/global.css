@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: var(--montserrat);
+	color: #fff;
+}
+
+body {
+	background-color: #181719;
+}
+
+:root {
+	--lora: 'Lora', serif;
+	--crimson: 'Crimson Pro', serif;
+	--montserrat: 'Montserrat', sans-serif;
+}
